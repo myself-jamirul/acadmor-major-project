@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: .4rem 5rem;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn{
+    height: 2.2rem;
+    margin: 0 4rem;
+    padding: .2rem .9rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid gray;
+    border-radius: .3rem;
+}
+
+.search_bar{
+    max-width: 500px;
+    margin: 0 6rem;
+    width: 500px;
+    height: 2.2rem;
+    position: relative;
+    background-color: transparent;
+}
+.search_bar input{
+    width: 100%;
+    height: 100%;
+    padding: .2rem 1.2rem;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 2px solid gray;
+    border-radius: .3rem;
+}
+.search_bar input:focus{
+    outline: none;
+}
+.search_bar input::placeholder{
+    color: white;
+}
+.search_bar button{
+    position: absolute;
+    height: 2.2rem;
+    top: 0;
+    left: calc(100% + .3rem);
+    padding: .2rem .9rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid gray;
+    border-radius: .3rem;
+}
+.conatiner{
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.weatherInfo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.747);
+    padding:2rem 4rem;
+    color: white;
+    justify-content: space-between;
+    margin: 3rem 4rem;
+    border-radius: .5rem;
+}
+.left{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.left p{
+    margin: .7rem 0;
+}
+.middle p{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: .3rem 0;
+}
+.middle img{
+    width: 5rem;
+}
+.right{
+    text-align: center;
+    font-weight: bold;
+}
+.right p{
+    margin: .7rem 0;
+}
+.forecastInfo{
+    margin: 2rem 5rem;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.747);
+    justify-content: space-around;
+    padding: 2rem;
+    border-radius: .7rem;
+    color: white;
+}  
+.heading{
+    margin: 0 5rem;
+    display: inline;
+    padding: .7rem;
+    border-radius: .3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.card{
+    border: 1px solid gray;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.card p{
+    margin: .5rem 0;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+    text-align: center;
+    padding: .5rem 0;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Weather Forecast App</title>
+</head>
+<body>
+    <header>
+        <h2><a href="/">Weather Forecast App</a></h2>
+        <div class="search_bar">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button onclick="searchHandler()">Search</button>
+        </div>
+        <button class="btn" id="current_location">your location weather</button>
+    </header>
+    <div class="container">
+        <div id="weatherInfo" class="weatherInfo">
+            <!-- todays forcast -->
+        </div>
+        <h1 class="heading">Next 7 Day's forcast</h1>
+        <div id="forecastInfo" class="forecastInfo">
+            <!-- forcast for next 7 days -->
+        </div>
+        <footer>By Jamirul Islam</footer>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
